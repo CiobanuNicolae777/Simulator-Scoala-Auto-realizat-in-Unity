@@ -3,12 +3,6 @@ using System.Globalization;
 using UnityEngine;
 using UnityEngine.UI;
 
-// Based on: https://forum.unity.com/threads/fpstotext-free-fps-framerate-calculator-with-options.463667/
-//namespace NWH.Common.Demo
-//{
-    /// <summary>
-    ///     <para>Pushes the Framerate value to a Text component.</para>
-    /// </summary>
     [RequireComponent(typeof(Text))]
     public class FpsToText : MonoBehaviour
     {
@@ -160,4 +154,3 @@ using UnityEngine.UI;
             return _sysLastFrameRate;
         }
     }
-//}
